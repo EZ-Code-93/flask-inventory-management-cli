@@ -122,3 +122,5 @@ pytest -v
 ## Notes
 
 * Inventory data is stored **in memory** while `server.py` is running and resets to the default seed items whenever the server restarts.
+
+* In the future a call will be made to an external api to bring in product data. Also planning on inplementing a sqlite database
